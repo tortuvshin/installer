@@ -61,7 +61,8 @@ sleep 3
 sudo apt-get install chromium-browser
 echo "Chromium хөтөч амжилттай суулаа"
 sleep 3
-
+echo "Lamp суулгах гэж байна"
+sleep 3
 sudo apt-get update
 sudo apt-get install apache2
 ifconfig eth0 | grep inet | awk '{ print $2 }'
