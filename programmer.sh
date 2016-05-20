@@ -61,6 +61,20 @@ sleep 3
 sudo apt-get install chromium-browser
 echo "Chromium хөтөч амжилттай суулаа"
 sleep 3
+
+sudo apt-get install ubuntu-restricted-extras
+sudo apt-get install ttf-mscorefonts-installer
+
+echo "VLC тоглуулагч суулгах гэж байна"
+sleep 3
+sudo apt-get install vlc vlc-plugin-pulse
+
+echo "xampp"
+sudo add-apt-repository ppa:upubuntu-com/web
+sudo apt-get update
+sudo apt-get install xampp
+sudo /opt/lampp/lampp start
+
 echo "Lamp суулгах гэж байна"
 sleep 3
 sudo apt-get update
