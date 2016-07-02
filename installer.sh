@@ -12,6 +12,11 @@ echo "ROOT хэрэгтэй! "
 sleep 1
 echo "Сайн байна уу? $USER "
 sleep 1
+echo "Git суулгах гэж байна..."
+sleep 1
+sudo apt-get install git-all
+echo "Git амжилттай суулаа..."
+sleep 1
 echo "java суулгах гэж байна." 
 sleep 3
 sudo apt-get install default-jdk
