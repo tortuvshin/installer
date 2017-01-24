@@ -12,29 +12,7 @@ echo "ROOT хэрэгтэй! "
 sleep 1
 echo "Сайн байна уу? $USER "
 sleep 1
-echo "Git суулгах гэж байна..."
-sleep 1
-sudo apt-get update
-sudo apt-get install git-all
-echo "Git амжилттай суулаа..."
-sleep 1
-echo "java суулгах гэж байна." 
-sleep 3
 
-sudo apt-get install default-jdk
-sudo apt-get purge openjdk*
-sudo add-apt-repository ppa:webupd8team/java
-sudo apt-get update
-sudo apt-get install oracle-java8-installer oracle-java8-set-default
-echo "java амжилттай суулаа..."
-sleep 3 
-echo "Android studio суулгах гэж байна"
-sleep 3
-sudo add-apt-repository ppa:paolorotolo/android-studio
-sudo apt-get update
-sudo apt-get install android-studio
-echo "Android Studio амжилттай суулаа..."
-sleep 3
 echo "For Sublime-Text-2 суулгах гэж байна"
 sleep 3
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
@@ -49,16 +27,7 @@ sudo apt-get update
 sudo apt-get install sublime-text-installer
 echo "Sublime-Text-3 амжилттай суулаа..."
 sleep 3
-echo "nodejs суулгах гэж байна"
-sleep 3 
-sudo apt-get install nodejs
-sudo apt-get install npm
-sudo apt-get install python-software-properties
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
-sudo apt-get install nodejs
-echo "Node.js амжилттай суулаа..."
-sleep 3
+
 echo "Pycharm суулгах гэж байна"
 sleep 3
 sudo add-apt-repository ppa:mystic-mirage/pycharm
