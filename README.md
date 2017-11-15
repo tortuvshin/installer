@@ -9,7 +9,7 @@
      <a href="https://github.com/tortuvshin/installer/fork">
         <img src="https://img.shields.io/github/forks/tortuvshin/installer.svg?style=social&label=Fork"
             alt="Forks"></a>
-    <a href="https://github.com/tortuvshin/installer/stargers">
+    <a href="https://github.com/tortuvshin/installer/stargazers">
         <img src="https://img.shields.io/github/stars/tortuvshin/installer.svg?style=social&label=Stars"
             alt="Stars"></a>
     <a href="https://github.com/tortuvshin/">
